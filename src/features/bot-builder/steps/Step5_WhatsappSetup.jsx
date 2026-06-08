@@ -7,7 +7,7 @@ export const Step5_WhatsAppSetup = ({ formData, updateFormData }) => {
 
   const handleConnectAPI = () => {
     setScanning(true);
-    // Simulate QR code generation
+    // Simulate QR code generatio
     setTimeout(() => {
       setQrCode('https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=whatsapp://connect?token=abc123');
       setScanning(false);
